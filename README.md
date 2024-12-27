@@ -1,6 +1,6 @@
 ## Apache Iceberg Tables Migration Tool
 
-A tool for migrating Apache Iceberg tables from S3 bucket to target S3 location. Supports complete migration of table structures, data, and snapshots.
+A tool for migrating Apache Iceberg tables from S3 bucket to target S3 Tables bucket. Supports complete migration of table structures, data, and snapshots.
 
 ## Features
 
