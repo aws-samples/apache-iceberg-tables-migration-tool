@@ -76,6 +76,15 @@ python 5_migrate_tables_data.py \
 --database <database-name> \
 --snapshot-info-file <path-to-snapshot-info.json>
 
+### 5. Verify Data Integrity
+
+Execute data integrity verification after tables migration:
+
+python 6_verify_data_consistency.py \
+--source-catalog <source-catalog-name> \
+--target-catalog <target-catalog-name> \
+--database <database-name> \
+--snapshot-info-file <path-to-snapshot-info.json>
 
 ## Configuration Parameters
 
