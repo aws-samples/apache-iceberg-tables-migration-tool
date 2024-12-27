@@ -76,7 +76,7 @@ python 5_migrate_tables_data.py \
 --database <database-name> \
 --snapshot-info-file <path-to-snapshot-info.json>
 
-### 5. Verify Data Integrity
+### 6. Verify Data Integrity
 
 Execute data integrity verification after tables migration:
 
@@ -125,6 +125,11 @@ python 6_verify_data_consistency.py \
 5. **Data Migration**
    - Transfers data using specified snapshots
    - Maintains data integrity and history
+  
+6. **Data Verification**
+   - Validates record counts
+   - Verifies data consistency using checksums
+   - Ensures successful migration completion
 
 ## Limitations
 
